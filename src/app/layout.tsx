@@ -28,7 +28,7 @@ export default function RootLayout({
         inter.className
       )}
     >
-      <body className="min-h-screen pt-12 bg-slate-50 antialiased">
+      <body className="bg-slate-200">
         <Providers>
           {/* @ts-expect-error Server Component */}
           <Navbar />
